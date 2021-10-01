@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/leon/Kamworks/codeswitch/pcb/pcb.sch</source>
+    <date>zo 26 mrt 2017 21:31:40 CEST</date>
+    <tool>Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Code Switch</title>
+        <company>Kamworks</company>
+        <rev>1.1</rev>
+        <date>2017-03-26</date>
+        <source>pcb.sch</source>
+        <comment number="1" value="Leon Hiemstra"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ATSAMD11C14A-SS</value>
+      <footprint>so:SOIC-14_3.9x8.7mm_Pitch1.27mm</footprint>
+      <datasheet>http://www.atmel.com/Images/Atmel-42363-SAM-D11_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="BOM">MCU ATMEL ATSAMD11C14A-SSU</field>
+        <field name="Mfg_code">ATSAMD11C14A-SSUT</field>
+      </fields>
+      <libsource lib="atmel2" part="ATSAMD11C14A-SS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8CEC6</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Polyfuse 1.1A-hold 2.2A-trip</value>
+      <footprint>Resistors_SMD:R_1812</footprint>
+      <fields>
+        <field name="Mfg_code">0ZCG0110BF2B</field>
+      </fields>
+      <libsource lib="device" part="Polyfuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8D1C3</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>VS1838b</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <datasheet>https://www.elecrow.com/download/Infrared%20receiver%20vs1838b.pdf</datasheet>
+      <fields>
+        <field name="Mfg_code">VS1838b</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8D267</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>PAYLED</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Mfg_code">M20-9990246</field>
+        <field name="Note">add: LED red: Mfg_code:WP7113ID</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8D2D0</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Atmel-ICE</value>
+      <footprint>myconnectors:Atmel_ICE</footprint>
+      <fields>
+        <field name="Mfg_code">3220-10-0100-00</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8D335</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>S1DB</value>
+      <footprint>Diodes_SMD:D_SMB_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg_code">S1DB-13-F</field>
+      </fields>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8D600</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>S1DB</value>
+      <footprint>Diodes_SMD:D_SMB_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg_code">S1DB-13-F</field>
+      </fields>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8D6D5</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4u7/25V</value>
+      <footprint>capacitor:C_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">CL21A475KAQNNNG</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8D77D</tstamp>
+    </comp>
+    <comp ref="LS1">
+      <value>piezo</value>
+      <footprint>buzzer:MagneticBuzzer_StarMicronics_HMB-06_HMB-12</footprint>
+      <fields>
+        <field name="Mfg_code">PT-1340P-PQ</field>
+      </fields>
+      <libsource lib="device" part="Speaker_Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8D823</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>serial</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Mfg_code">61300411121</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A8DFA7</tstamp>
+    </comp>
+    <comp ref="RLY1">
+      <value>RAMWAY_DS903C-90A_12V_D</value>
+      <footprint>myrelays:RAMWAY_DS903C-90A_12V_D</footprint>
+      <datasheet>http://www.rwrelay.cn/tradeDetails.aspx?tid=213&amp;&amp;lang=1&amp;&amp;name=94</datasheet>
+      <fields>
+        <field name="Mfg_code">DS903C-90A_12V_D</field>
+      </fields>
+      <libsource lib="relay_ramway_ds903c" part="RAMWAY_DS903C-90A_12V_D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AB8970</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>(faston male 6.35mm)</value>
+      <footprint>myconnectors:faston_m_63</footprint>
+      <datasheet>http://www.digikey.nl/product-detail/en/te-connectivity-amp-connectors/1217861-1/A100452TR-ND/1148769</datasheet>
+      <fields>
+        <field name="Mfg_code">1217861-1</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ABA3CC</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>(faston male 6.35mm)</value>
+      <footprint>myconnectors:faston_m_63</footprint>
+      <datasheet>http://www.digikey.nl/product-detail/en/te-connectivity-amp-connectors/1217861-1/A100452TR-ND/1148769</datasheet>
+      <fields>
+        <field name="Mfg_code">1217861-1</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ABACEF</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>resistor:R_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">RMCF0805FT1K00</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ABB16E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>S1DB</value>
+      <footprint>Diodes_SMD:D_SMB_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg_code">S1DB-13-F</field>
+      </fields>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AB6DD1</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NCP1117ST33T3G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223</footprint>
+      <fields>
+        <field name="Mfg_code">NCP1117ST33T3G</field>
+      </fields>
+      <libsource lib="regul" part="NCP1117ST33T3G_MountingTab"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ABA294</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>resistor:R_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">RMCF0805FT10K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ABD80D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>capacitor:C_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">C0805C104K5RACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ABF2E4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4u7/25V</value>
+      <footprint>capacitor:C_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">CL21A475KAQNNNG</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ACB474</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>15pF</value>
+      <footprint>capacitor:C_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">CL21C150JBANNNC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ACEFEA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>150</value>
+      <footprint>resistor:R_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">RMCF0805FT150R</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD1621</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>150</value>
+      <footprint>resistor:R_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">RMCF0805FT150R</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD1CCE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>150</value>
+      <footprint>resistor:R_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">RMCF0805FT150R</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD3D80</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>USB micro B</value>
+      <footprint>Connectors:USB_Micro-B_10103594-0001LF</footprint>
+      <fields>
+        <field name="Mfg_code">10103594-0001LF</field>
+      </fields>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AE0C3A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>S1DB</value>
+      <footprint>Diodes_SMD:D_SMB_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg_code">S1DB-13-F</field>
+      </fields>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AE100B</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>(faston male 6.35mm)</value>
+      <footprint>myconnectors:faston_m_63</footprint>
+      <datasheet>http://www.digikey.nl/product-detail/en/te-connectivity-amp-connectors/1217861-1/A100452TR-ND/1148769</datasheet>
+      <fields>
+        <field name="Mfg_code">1217861-1</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AE85A6</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>(faston male 6.35mm)</value>
+      <footprint>myconnectors:faston_m_63</footprint>
+      <datasheet>http://www.digikey.nl/product-detail/en/te-connectivity-amp-connectors/1217861-1/A100452TR-ND/1148769</datasheet>
+      <fields>
+        <field name="Mfg_code">1217861-1</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AE877A</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse 250mA-hold 500mA-trip</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering</footprint>
+      <fields>
+        <field name="Mfg_code">0ZCJ0025AF2E</field>
+      </fields>
+      <libsource lib="device" part="Polyfuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AF63D6</tstamp>
+    </comp>
+    <comp ref="ZD1">
+      <value>ESDA6V1W5</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5_Handsoldering</footprint>
+      <fields>
+        <field name="Mfg_code">ESDA6V1W5</field>
+      </fields>
+      <libsource lib="scc" part="ESDA6V1W5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AF4F15</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz</value>
+      <footprint>xtal:Crystal_SMD_Abracon_4pin_32768khz</footprint>
+      <fields>
+        <field name="Mfg_code">ABS25-32.768KHZ-T</field>
+      </fields>
+      <libsource lib="device" part="Crystal_GND23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AF6502</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>15pF</value>
+      <footprint>capacitor:C_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">CL21C150JBANNNC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ACEB9B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>resistor:R_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">RMCF0805FT1K00</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ABB744</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT2222</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806</datasheet>
+      <fields>
+        <field name="Mfg_code">MMBT2222ALT1G</field>
+      </fields>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B72CAE</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT2222</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/on-semiconductor/MMBT2222ALT1G/MMBT2222ALT1GOSCT-ND/1139806</datasheet>
+      <fields>
+        <field name="Mfg_code">MMBT2222ALT1G</field>
+      </fields>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B72FE7</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>150</value>
+      <footprint>resistor:R_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">RMCF0805FT150R</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D80F12</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4u7/25V</value>
+      <footprint>capacitor:C_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">CL21A475KAQNNNG</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D81CFB</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>resistor:R_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">RMCF0805FT10K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D824F1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>capacitor:C_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">C0805C104K5RACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D83657</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>resistor:R_0805_reflow</footprint>
+      <fields>
+        <field name="Mfg_code">RMCF0805FT10K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D842DF</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel2" part="ATSAMD11C14A-SS">
+      <description>MCU 32bit/ARM-M0+ ROM:16KB RAM:4KB USB [SOIC-14]</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAMD11C14A-SS</field>
+        <field name="Footprint">IPC7351-Nominal:SOIC127P600X175-14</field>
+        <field name="Datasheet">http://www.atmel.com/Images/Atmel-42363-SAM-D11_Datasheet.pdf</field>
+        <field name="BOM">MCU ATMEL ATSAMD11C14A-SSU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA05" type="3state"/>
+        <pin num="2" name="XIN/PA08" type="3state"/>
+        <pin num="3" name="XOUT/PA09" type="3state"/>
+        <pin num="4" name="PA14" type="3state"/>
+        <pin num="5" name="PA15" type="3state"/>
+        <pin num="6" name="~RST~/PA28" type="3state"/>
+        <pin num="7" name="SWCLK/PA30" type="3state"/>
+        <pin num="8" name="SWDIO/PA31" type="3state"/>
+        <pin num="9" name="USBD-/PA24" type="3state"/>
+        <pin num="10" name="USBD+/PA25" type="3state"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="V+" type="power_in"/>
+        <pin num="13" name="PA02" type="3state"/>
+        <pin num="14" name="PA04" type="3state"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X05">
+      <description>Connector, double row, 02x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal_GND23">
+      <description>Four pin crystal (GND on pins 2 and 3), e.g. in SMD package</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_ALT">
+      <description>Diode, alternativ symbol</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="scc" part="ESDA6V1W5">
+      <fields>
+        <field name="Reference">ZD</field>
+        <field name="Value">ESDA6V1W5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Z1" type="input"/>
+        <pin num="2" name="COM" type="input"/>
+        <pin num="3" name="Z2" type="input"/>
+        <pin num="4" name="Z3" type="input"/>
+        <pin num="5" name="Z4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="NCP1117STAT3G_MountingTab">
+      <aliases>
+        <alias>NCP1117ST12T3G_MountingTab</alias>
+        <alias>NCP1117ST15T3G_MountingTab</alias>
+        <alias>NCP1117ST18T3G_MountingTab</alias>
+        <alias>NCP1117ST20T3G_MountingTab</alias>
+        <alias>NCP1117ST25T3G_MountingTab</alias>
+        <alias>NCP1117ST285T3G_MountingTab</alias>
+        <alias>NCP1117ST33T3G_MountingTab</alias>
+        <alias>NCP1117ST50T3G_MountingTab</alias>
+      </aliases>
+      <description>1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, SOT223</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>SOT-223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117STAT3G_MountingTab</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+        <pin num="4" name="VO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Polyfuse">
+      <description>resettable fuse, polymeric positive temperature coefficient (PPTC)</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_BEC">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="relay_ramway_ds903c" part="RAMWAY_DS903C-90A_12V_D">
+      <footprints>
+        <fp>relay_DK1a-L2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RLY</field>
+        <field name="Value">RAMWAY_DS903C-90A_12V_D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Speaker_Crystal">
+      <aliases>
+        <alias>Speaker_Ultrasound</alias>
+      </aliases>
+      <description>crystal speaker/transducer</description>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Speaker_Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>USB micro/mini connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="scc">
+      <uri>/home/leon/Kamworks/codeswitch/pcb/scc.lib</uri>
+    </library>
+    <library logical="atmel2">
+      <uri>/home/leon/Kamworks/codeswitch/pcb/atmel2.lib</uri>
+    </library>
+    <library logical="relay_ramway_ds903c">
+      <uri>/home/leon/Kamworks/codeswitch/pcb/relay_ramway_ds903c.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="F2" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="RLY1" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="2" name="/nRESET">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="P3" pin="10"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="P5" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C6-Pad2)">
+      <node ref="P4" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q2-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="7" name="Net-(P3-Pad9)">
+      <node ref="P3" pin="9"/>
+    </net>
+    <net code="8" name="Net-(P3-Pad7)">
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="9" name="Net-(P3-Pad8)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="10" name="Net-(P3-Pad6)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="11" name="Net-(P2-Pad4)">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad2)">
+      <node ref="RLY1" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D4-Pad2)">
+      <node ref="Q2" pin="3"/>
+      <node ref="RLY1" pin="3"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="14" name="Net-(P9-Pad1)">
+      <node ref="RLY1" pin="4"/>
+      <node ref="P9" pin="1"/>
+    </net>
+    <net code="15" name="Net-(P8-Pad1)">
+      <node ref="RLY1" pin="5"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="16" name="Net-(P4-Pad3)">
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="13"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="P7" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P3" pin="5"/>
+      <node ref="P3" pin="3"/>
+      <node ref="LS1" pin="1"/>
+      <node ref="P4" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P1" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="P2" pin="5"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="P2" pin="6"/>
+      <node ref="ZD1" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="19" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="20" name="Net-(P5-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="21" name="Net-(LS1-Pad2)">
+      <node ref="LS1" pin="2"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="22" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(F2-Pad1)">
+      <node ref="P6" pin="1"/>
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="24" name="/USBD+">
+      <node ref="P2" pin="3"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="25" name="/USBD-">
+      <node ref="P2" pin="2"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="26" name="/RELAY_OFF">
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="27" name="/RELAY_ON">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="28" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="29" name="Net-(C5-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C4-Pad2)">
+      <node ref="Y1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="31" name="/SWCLK">
+      <node ref="ZD1" pin="3"/>
+      <node ref="P3" pin="4"/>
+      <node ref="U2" pin="7"/>
+      <node ref="ZD1" pin="4"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="32" name="/SWDIO">
+      <node ref="R1" pin="1"/>
+      <node ref="ZD1" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="ZD1" pin="5"/>
+    </net>
+    <net code="33" name="/TXD">
+      <node ref="P1" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="34" name="/RXD">
+      <node ref="R7" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+  </nets>
+</export>
